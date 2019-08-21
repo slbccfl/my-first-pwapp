@@ -430,3 +430,13 @@ body {
     width: 32px;
   }
 }
+
+/**
+ * Media query to see if app is launched from the home screen
+ */
+
+@media all and (display-mode: standalone) {
+  body {
+    background-color: yellow;
+  }
+}
